@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Figma UI Implementation
 
-## Getting Started
+A pixel-aligned, responsive recreation of a provided Figma design, built with Next.js (App Router), TypeScript, Tailwind CSS, and Framer Motion.
 
-First, run the development server:
+## Pages
+
+- **`/`** — Hero section with a horizontally draggable image gallery and a partners row
+- **`/course`** — Course highlights section: an animated accordion-style card layout. Clicking a collapsed card expands it (width, color, and content transition) while the previously expanded card collapses into a side tab with rotated label text
+
+## Tech stack
+
+- Next.js (App Router), TypeScript
+- Tailwind CSS
+- Framer Motion (card expand/collapse, staggered icon animations)
+
+## Getting started
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `/` — hero and image drag strip
+- `/course` — course highlights accordion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Notes
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Built as a take-home UI/UX assignment based on a provided Figma design.
+- Exact colors, fonts, and spacing are approximated from design screenshots where Figma Dev Mode values weren't available; some values may be refined further.
