@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="wheel" x1=".1" y1="0" x2=".9" y2="1">
+      <stop stop-color="#F5D84C"/>
+      <stop offset=".2" stop-color="#60C575"/>
+      <stop offset=".42" stop-color="#44B8D0"/>
+      <stop offset=".62" stop-color="#576FE8"/>
+      <stop offset=".82" stop-color="#E950A7"/>
+      <stop offset="1" stop-color="#F5A137"/>
+    </linearGradient>
+  </defs>
+  <circle cx="75" cy="78" r="52" fill="none" stroke="url(#wheel)" stroke-width="24"/>
+  <circle cx="75" cy="78" r="28" fill="#C93D55"/>
+  <g transform="rotate(42 84 79)">
+    <path d="m81 31 14 10v69l-14 22-14-22V41z" fill="#F5C83E"/>
+    <path d="m81 31 14 10v69l-14 22z" fill="#FF9B39"/>
+    <path d="m67 41 14-10 14 10-14 8z" fill="#EAF6FA"/>
+    <path d="m67 110 14 22 14-22z" fill="#F3D9C6"/>
+    <path d="m76 118 5 14 5-14z" fill="#35495E"/>
+    <path d="M81 39v15" stroke="#3D6E8A" stroke-linecap="round" stroke-width="4"/>
+  </g>
+</svg>

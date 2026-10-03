@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <path d="M18 39h34l28 43 28-43h34L80 135z" fill="#35495E"/>
+  <path d="M18 39h22l40 63 40-63h22L80 135z" fill="#42B883"/>
+  <path d="M53 39h18l9 14 9-14h18L80 82z" fill="#35495E"/>
+  <rect x="25" y="123" width="110" height="28" rx="5" fill="#EAF4FF" transform="rotate(-7 80 137)"/>
+  <text x="80" y="143" fill="#4297F2" font-family="Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" transform="rotate(-7 80 137)">VueJS</text>
+</svg>
